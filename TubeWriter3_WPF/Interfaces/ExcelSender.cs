@@ -34,7 +34,7 @@ namespace TubeWriter3_WPF.Interfaces
                 var Date = ViewModel.BoundDate[i];
 
                 //Stop if no date
-                if (Date == null)
+                if (Date == "")
                 {
                     return new Report(false, "A date was missing.");
                 }
